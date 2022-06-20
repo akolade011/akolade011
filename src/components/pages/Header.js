@@ -5,7 +5,7 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import "~video-react/styles/scss/video-react"; // or import scss
+
 
 function Header ()  {
  const play = true;
@@ -17,7 +17,7 @@ function Header ()  {
 <nav>
 <header className='v-header containerH'>
   <div className='fullscreen-video-wrap'>
-  <video src="video/3.mov" muted loop="true" autoPlay={play}></video>
+
   </div>
 
 </header>
