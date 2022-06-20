@@ -5,32 +5,23 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import "~video-react/styles/scss/video-react"; // or import scss
 
 function Header ()  {
- 
+ const play = true;
     return (
        
       <div className='header'>
-<Navbar  expand="lg">
-      <Container fluid>
-        <Navbar.Brand href="#">Real World Health</Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
-          <Nav
-            className="me-auto my-2 my-lg-0"
-            style={{ maxHeight: '100px' }}
-            navbarScroll
-          >
-            <Nav.Link href="https://realworld.health/">about</Nav.Link>
-            <Nav.Link href="#action2">SignOut</Nav.Link>
-           
+        
 
-          </Nav>
-         
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+<nav>
+<header className='v-header containerH'>
+  <div className='fullscreen-video-wrap'>
+  <video src="video/3.mov" muted loop="true" autoPlay={play}></video>
+  </div>
 
+</header>
+</nav>
                 </div>
 
             
