@@ -6,17 +6,17 @@ const LogoutButton = () => {
     const { logout, isAuthenticated } = useAuth0();
     const { user } = useAuth0();
  
-    return (
+    return ((
       
         
                   isAuthenticated && (<button onClick={() => {logout()}}>
-               <div> <h1>welcome {user.name}</h1>
+               <div> 
 
                 Sign Out</div>
                 <Iframe></Iframe>
             </button>
           
-
+                  )
             
         )
     )

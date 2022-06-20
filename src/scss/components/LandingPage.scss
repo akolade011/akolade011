@@ -1,0 +1,46 @@
+.LandingPage{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    color: black;
+    & img{
+
+    }
+    button{
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        right: 50%;
+    }
+    // .LandingPage__title{
+    //     text-align: center;
+    //     position: absolute;
+    //     top: 50%;
+    //     right: 50%;
+
+    // }
+    &__title {
+        bottom: 0;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+
+        @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+            height: 100%;
+            line-height: 50px;
+        }
+    }
+
+    &__title {
+       color: black;
+        word-spacing: 0;
+        letter-spacing: 0.15rem;
+        width: 100%;
+        margin: 0 auto;
+        line-height: 42px;
+        text-align: center;
+
+        @media screen and (min-width: 1500px) {
+            line-height: 66px;
+        }}
+}
