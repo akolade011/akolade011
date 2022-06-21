@@ -1,20 +1,20 @@
-import { useAuth0, User } from '@auth0/auth0-react';
+import { useAuth0 } from '@auth0/auth0-react';
 import * as React from 'react';
 import Iframe from './Iframe';
 
 const LogoutButton = () => {
     const { logout, isAuthenticated } = useAuth0();
-    const { user } = useAuth0();
  
     return ((
       
         
-                  isAuthenticated && (<button onClick={() => {logout()}}>
-               <div> 
-
-                Sign Out</div>
-                <Iframe></Iframe>
+                  isAuthenticated && (<div >
+              
+               <button onClick={() => {logout()}}> 
+                    SignOut
             </button>
+                <Iframe></Iframe>
+            </div>
           
                   )
             

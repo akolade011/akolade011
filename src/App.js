@@ -17,7 +17,7 @@ function App() {
       {!error && isLoading && <p>Loading...</p>}
       {!error && !isLoading && (
         <>
-        <LandingPage></LandingPage>
+        {/* <LandingPage></LandingPage> */}
           <LoginButton />
           <LogoutButton />
           <Profile></Profile>
