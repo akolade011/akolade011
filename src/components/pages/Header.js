@@ -36,7 +36,7 @@ function Header ()  {
       <Card.Img src={Logo} alt="Card image" />
       <Card.ImgOverlay>
         <div className='Header__Card'>
-        <Card.Title>Real World Health2020</Card.Title>
+        <Card.Title>Real World Health</Card.Title>
         <Card.Text>
         We are at the heart of healthcare, data science and technology – providing advance data solutions to improve human health.
         </Card.Text>
