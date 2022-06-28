@@ -6,16 +6,19 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import ReactButton from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container'
+import Carousel from 'react-bootstrap/Carousel'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import Card from 'react-bootstrap/Card';
-import Logo from '../../assets/images/bg.png'; 
+import img1 from '../../assets/images/img1.png'; 
+import img2 from '../../assets/images/img2.png'; 
+import img3 from '../../assets/images/img3.png'; 
 
 import 'bootstrap/dist/css/bootstrap.css';
 
 
 function Header ()  {
- const play = true;
+
     return (
        
       <div className='header'>
@@ -25,25 +28,32 @@ function Header ()  {
 
 </nav>
 
-<Container>
-  <Row>
-    <Col>
-    
-    </Col>
-  </Row>
-</Container>
-<Card className="bg-light text-white Header__Card" border="dark" style={{ width: '100%' }}>
-      <Card.Img src={Logo} alt="Card image" />
-      <Card.ImgOverlay>
-        <div className='Header__Card'>
-        <Card.Title>Real World Health</Card.Title>
-        <Card.Text>
-        We are at the heart of healthcare, data science and technology – providing advance data solutions to improve human health.
-        </Card.Text>
-        {/* <Card.Text>Last updated 3 mins ago</Card.Text> */}
-        </div>
-      </Card.ImgOverlay>
-    </Card>
+<Carousel variant="dark">
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={img1}
+      alt="First slide"
+    />
+
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={img2}
+      alt="Second slide"
+    />
+
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={img3}
+      alt="Third slide"
+    />
+
+  </Carousel.Item>
+</Carousel>
                 </div>
 
             
