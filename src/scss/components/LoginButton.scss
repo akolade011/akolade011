@@ -37,14 +37,24 @@ button{  background-color: #14caea; /* Green */
         top: 45%;
         right: 40%;
     }}
-
-    @media only screen and (max-width: 1200px) {
+    @media only screen and (max-width: 60px) {
         h1 {
             top: 30%;
-        right: 15%;
+        right: 0%;
 
         }
     button{
-        top: 35%;
-        right: 43%;
+        top: 45%;
+        right: 40%;
     }}
+
+    // @media only screen and (min-width: 1200px) {
+    //     h1 {
+    //         top: 30%;
+    //     right: 15%;
+
+    //     }
+    // button{
+    //     top: 35%;
+    //     right: 43%;
+    // }}
