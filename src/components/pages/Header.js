@@ -33,7 +33,7 @@ function Header ()  {
     <img
       className="d-block w-100"
       src={img1}
-      alt="First slide"
+ 
     />
 
   </Carousel.Item>
@@ -41,7 +41,7 @@ function Header ()  {
     <img
       className="d-block w-100"
       src={img2}
-      alt="Second slide"
+
     />
 
   </Carousel.Item>
@@ -49,7 +49,7 @@ function Header ()  {
     <img
       className="d-block w-100"
       src={img3}
-      alt="Third slide"
+
     />
 
   </Carousel.Item>
