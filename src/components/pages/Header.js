@@ -18,7 +18,11 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 
 function Header ()  {
-
+  let imgs = [
+    'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
+    'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
+    'https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80'
+  ];
     return (
        
       <div className='header'>
@@ -27,9 +31,10 @@ function Header ()  {
 
 
 <Carousel variant="dark">
-  <Carousel.Item className='mainContainer'>
+  <Carousel.Item>
     <img
       className="d-block w-100"
+      src={imgs[0]}
  
     />
 
@@ -37,7 +42,7 @@ function Header ()  {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={img2}
+      src={imgs[1]}
 
     />
 
@@ -45,18 +50,12 @@ function Header ()  {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={img3}
+      src={imgs[2]}
 
     />
 
   </Carousel.Item>
 </Carousel>
-<img className='test' src={img1}></img>
-<Container className='mainContainer'><h1>hello world</h1>
-<h2>test</h2></Container>
-<Row>
-  <Col></Col>
-</Row>
                 </div>
 
             
