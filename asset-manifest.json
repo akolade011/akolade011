@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/realworld-health/static/css/main.1e291fd3.css",
-    "main.js": "/realworld-health/static/js/main.0848c009.js",
-    "static/media/bg.png": "/realworld-health/static/media/bg.4ec075008a0514459e7d.png",
-    "index.html": "/realworld-health/index.html",
-    "main.1e291fd3.css.map": "/realworld-health/static/css/main.1e291fd3.css.map",
-    "main.0848c009.js.map": "/realworld-health/static/js/main.0848c009.js.map"
+    "main.css": "/static/css/main.1e291fd3.css",
+    "main.js": "/static/js/main.ae4819f2.js",
+    "static/media/bg.png": "/static/media/bg.4ec075008a0514459e7d.png",
+    "index.html": "/index.html",
+    "main.1e291fd3.css.map": "/static/css/main.1e291fd3.css.map",
+    "main.ae4819f2.js.map": "/static/js/main.ae4819f2.js.map"
   },
   "entrypoints": [
     "static/css/main.1e291fd3.css",
-    "static/js/main.0848c009.js"
+    "static/js/main.ae4819f2.js"
   ]
 }
