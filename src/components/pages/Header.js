@@ -27,10 +27,9 @@ function Header ()  {
 
 
 <Carousel variant="dark">
-  <Carousel.Item>
+  <Carousel.Item className='test'>
     <img
       className="d-block w-100"
-      src={img1}
  
     />
 
