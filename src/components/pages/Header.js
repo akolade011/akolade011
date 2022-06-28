@@ -52,6 +52,12 @@ function Header ()  {
 
   </Carousel.Item>
 </Carousel>
+<img className='test' src={img1}></img>
+<Container className='mainContainer'><h1>hello world</h1>
+<h2>test</h2></Container>
+<Row>
+  <Col></Col>
+</Row>
                 </div>
 
             
