@@ -24,14 +24,12 @@ function Header ()  {
       <div className='header'>
         
 
-<nav>
-
-</nav>
+<img src={img1}></img>
 
 <Carousel variant="dark">
   <Carousel.Item>
     <img
-      className="w-100"
+      className=""
       src={img1}
  
     />
@@ -39,7 +37,7 @@ function Header ()  {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="w-100"
+      className=""
       src={img2}
 
     />
@@ -47,7 +45,7 @@ function Header ()  {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="w-100"
+      className=""
       src={img3}
 
     />
