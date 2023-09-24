@@ -18,7 +18,7 @@ const LoginButton = () => {
 
         !isAuthenticated && (
             <div>
-                <h1 className='box' ref={boxRef}>For a new generation of innovators</h1>
+                <h1 className='box' ref={boxRef}>Real life Heros</h1>
             <button className='box1' ref={boxRef1}onClick={() => loginWithRedirect()}>
                 Sign In here
             </button>
