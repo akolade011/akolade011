@@ -10,7 +10,7 @@ const LogoutButton = () => {
         
                   isAuthenticated && (<div >
               
-               <button onClick={() => {logout()}}> 
+               <button className='logOutButton' onClick={() => {logout()}}> 
                     SignOut
             </button>
                 <Iframe></Iframe>
